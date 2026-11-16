@@ -39,7 +39,7 @@ Abra o **XAMPP Control Panel** e clique em **Start** na linha do **MySQL**. O Ap
 Rode os dois scripts, nesta ordem.
 
 - **Pelo phpMyAdmin** (http://localhost/phpmyadmin, com o Apache ligado): aba **Importar**, escolha `banco/01_estrutura.sql` e clique em **Importar**. Depois, o mesmo com `banco/02_dados_exemplo.sql`.
-- **Pelo terminal:**
+- **Pelo terminal(Sempre que um comando daqui usar banco/..., rode da raiz do projeto):**
 
 ```bash
 C:/xampp/mysql/bin/mysql.exe -u root --default-character-set=utf8mb4 -e "source banco/01_estrutura.sql"
