@@ -98,7 +98,7 @@ Mostra a versão do MySQL e quantas linhas cada tabela tem. Para rodar os testes
 backend/.venv/Scripts/python -m unittest discover -s backend/testes -t backend -v
 ```
 
-Precisa terminar com `Ran 198 tests` e `OK`. **Os testes esperam os dados de exemplo:** rode o `01` e o `02` antes.
+Precisa terminar com `Ran 199 tests` e `OK`. **Os testes esperam os dados de exemplo:** rode o `01` e o `02` antes.
 
 Os testes do JavaScript (as regras das telas, como o conflito de datas e a ordem das tarefas) precisam do Node 22 ou mais novo, sem `npm install`:
 
