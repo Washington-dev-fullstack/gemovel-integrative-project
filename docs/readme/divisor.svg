@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="8" viewBox="0 0 1280 8" aria-hidden="true">
+<defs><linearGradient id="prisma" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#a6f4ff"/><stop offset=".35" stop-color="#cdbcff"/>
+<stop offset=".7" stop-color="#ffb8e3"/><stop offset="1" stop-color="#ffe2a6"/></linearGradient>
+<linearGradient id="prisma-h" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#a6f4ff"/><stop offset=".35" stop-color="#cdbcff"/>
+<stop offset=".7" stop-color="#ffb8e3"/><stop offset="1" stop-color="#ffe2a6"/></linearGradient><linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".2" stop-color="#fff"/><stop offset=".8" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="m"><rect width="1280" height="8" fill="url(#fade)"/></mask></defs>
+<rect y="3" width="1280" height="2" rx="1" fill="url(#prisma-h)" mask="url(#m)"/></svg>
